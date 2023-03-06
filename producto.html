@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">   
+            <img class="header_logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion_enlace navegacion_enlace--activo" href="index.html">TIENDA</a>
+        <a class="navegacion_enlace" href="nosotros.html">NOSOTROS</a>
+
+    </nav>
+
+    <main class="contenedor">
+        <h1>React JS</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg" alt="Imagen del producto">
+
+            <div class="camisa__contenido">
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                    It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, 
+                    looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, 
+                    and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+
+                    <form class="formulario">
+                        <select class="formulario__campo">
+                            <option disabled selected>--Seleccionar Talla--</option>
+                            <option>Chica</option>
+                            <option>Mediana</option>
+                            <option>Grande</option>
+                        </select>
+                        <input class="formulario__campo" type="number" placeholder="cantidad" min="1">
+                        <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                    </form> 
+            </div>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos reservados 2022</p>
+    </footer>
+</body>
+</html>
